@@ -1,5 +1,12 @@
 <h1>Users#new</h1>
 
 <form action="/users" method="POST" accept-charset="UTF-8">
-
+  <label for="username">User Name</label>
+  <input type="text" name="username" id="username">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email">
+  <label for="password">Password</label>
+  <input type="password" name="password_digest" id="password_digest">
+  <input type="submit" value="Go!">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 </form>
