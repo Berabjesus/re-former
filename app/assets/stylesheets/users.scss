@@ -1,1 +1,6 @@
 // User CSS goes here
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
