@@ -14,7 +14,7 @@ class UsersController < ApplicationController
 
   private
   def user_params
-    params.require(:user).permit(:username, :email, :password_digest)
+    params.permit(:username, :email, :password_digest)
   end
   # {"username"=>"sdfs", "email"=>"asd@easdas", "password"=>"[FILTERED]", "authenticity_token"=>"wSniYW/JnuQ770uRAoeDaQ4YmwJiFdZZJJ6TW0taBaAzYNXullZhA/e+bowoXqGDuG2ngyUeFL7IfhmkUAkJ+A=="}
 
