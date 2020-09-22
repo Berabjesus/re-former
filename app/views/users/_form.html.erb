@@ -1,0 +1,22 @@
+<%= form_for @user, html: {class: 'form-horizontal'} do |f|%>
+  <div class="form-group">
+    <%= f.label "User name: "%>
+    <%= f.text_field :username, placeholder: 'Your name here', class: 'form-control'%>  
+  </div>
+  <div class="form-group">
+    <%= f.label "Email: "%>
+    <%= f.email_field :email, placeholder: 'Your email here', class: 'form-control'%>  
+  </div>
+  <div class="form-group">
+    <%= f.label "Password: "%>
+    <%= f.password_field :password_digest, placeholder: 'Your password here', class: 'form-control'%>  
+  </div>
+  <div class="form-group w-100 text-center">
+    <%= f.submit "GO!", class: 'btn btn-success w-25'%>
+  </div>
+<%end%>
+<% if @user.errors.any?%>
+  <% @user.errors.full_messages.each do |error| %>
+    <li class="text-danger"><%= error %></li>
+  <% end %>
+<% end %>

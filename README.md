@@ -1,24 +1,43 @@
-# README
+# User Log In Page with Rails 6
+> This is a Microverse, Technical curriculum, Ruby on Rails User Log In page.
+<img src="./app/assets/images/Capture.JPG" width="100%" height="500" />
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby on Rails
+- Bootstrap
+- sqlite3 for the local development
+- VScode
+- Rubocpo
 
-* Ruby version
+## Author
 
-* System dependencies
+👤 **Bereket Beshane**
 
-* Configuration
+- Github: [@berabjesus](https://github.com/Berabjesus)
+- Twitter: [@bereket_ababu_b](https://twitter.com/bereket_ababu_b)
+- Linkedin: [linkedin](https://www.linkedin.com/in/bereket-beshane-a1b75a1a9/)
 
-* Database creation
+👤 **Miguel Angel Enciso Sanchez**
 
-* Database initialization
+- Github: [@rootDEV2990](https://github.com/rootDEV2990)
+- Twitter: [@m29902](https://twitter.com/m29902)
+- Linkedin: [linkedin](https://www.linkedin.com/in/miguel-enciso-6474741a1/)
+- Medium: [medium](https://medium.com/@website.dev)
 
-* How to run the test suite
+## 🤝 Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributions, issues and feature requests are welcome!
 
-* Deployment instructions
+## Show your support
 
-* ...
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- Heroku
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+

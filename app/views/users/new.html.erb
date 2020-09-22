@@ -1,12 +1,26 @@
-<h1>Users#new</h1>
+<!--
+#<form action="/users" method="POST" accept-charset="UTF-8">
+  #<label for="username">User Name</label>
+  #<input type="text" name="user[username]" id="username">
+  #<label for="email">Email</label>
+  #<input type="email" name="user[email]" id="email">
+  #<label for="password">Password</label>
+  #<input type="password" name="user[password_digest]" id="password_digest">
+  #<input type="submit" value="Go!">
+  #<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+#</form>-->
+<!-- 
+<%= form_tag("/users", method: "post") do %>
+  <%= label_tag(:username, 'User Name') %>
+  <%= text_field_tag(:username) %>
+  <%= label_tag(:email, 'User Email') %>
+  <%= email_field_tag(:email) %>
+  <%= label_tag(:password_digest, 'User Password') %>
+  <%= password_field_tag(:password_digest) %>
+  <%= submit_tag 'OK' %>
+<%end%> -->
 
-<form action="/users" method="POST" accept-charset="UTF-8">
-  <label for="username">User Name</label>
-  <input type="text" name="username" id="username">
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email">
-  <label for="password">Password</label>
-  <input type="password" name="password_digest" id="password_digest">
-  <input type="submit" value="Go!">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-</form>
+<div class="offset-xl-2 col-xl-8 mt-4 pt-2 pb-5 bg-light border">
+  <h1 class="text-center">Creat New User</h1>
+  <%= render 'form' %>
+</div>
